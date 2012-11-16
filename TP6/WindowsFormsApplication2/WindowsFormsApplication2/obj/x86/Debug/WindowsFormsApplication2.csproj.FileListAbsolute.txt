@@ -1,0 +1,9 @@
+C:\Users\vi\Documents\GitHub\CSharp\TP6\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP6\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\vi\Documents\GitHub\CSharp\TP6\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\vi\Documents\GitHub\CSharp\TP6\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\MyTinyDemineur.Form1.resources
+C:\Users\vi\Documents\GitHub\CSharp\TP6\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\MyTinyDemineur.Properties.Resources.resources
+C:\Users\vi\Documents\GitHub\CSharp\TP6\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\vi\Documents\GitHub\CSharp\TP6\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\vi\Documents\GitHub\CSharp\TP6\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP6\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb

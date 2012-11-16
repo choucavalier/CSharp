@@ -1,0 +1,9 @@
+C:\Users\vi\Documents\GitHub\CSharp\TP6\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP6\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\vi\Documents\GitHub\CSharp\TP6\HelloWorld\HelloWorld\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\vi\Documents\GitHub\CSharp\TP6\HelloWorld\HelloWorld\obj\x86\Debug\HelloWorld.Form1.resources
+C:\Users\vi\Documents\GitHub\CSharp\TP6\HelloWorld\HelloWorld\obj\x86\Debug\HelloWorld.Properties.Resources.resources
+C:\Users\vi\Documents\GitHub\CSharp\TP6\HelloWorld\HelloWorld\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\vi\Documents\GitHub\CSharp\TP6\HelloWorld\HelloWorld\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\vi\Documents\GitHub\CSharp\TP6\HelloWorld\HelloWorld\obj\x86\Debug\HelloWorld.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP6\HelloWorld\HelloWorld\obj\x86\Debug\HelloWorld.pdb

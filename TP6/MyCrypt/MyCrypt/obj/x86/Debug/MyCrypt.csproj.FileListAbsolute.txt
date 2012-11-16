@@ -1,0 +1,9 @@
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyCrypt\MyCrypt\bin\Debug\MyCrypt.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyCrypt\MyCrypt\bin\Debug\MyCrypt.pdb
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyCrypt\MyCrypt\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyCrypt\MyCrypt\obj\x86\Debug\MyCrypt.Form1.resources
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyCrypt\MyCrypt\obj\x86\Debug\MyCrypt.Properties.Resources.resources
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyCrypt\MyCrypt\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyCrypt\MyCrypt\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyCrypt\MyCrypt\obj\x86\Debug\MyCrypt.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyCrypt\MyCrypt\obj\x86\Debug\MyCrypt.pdb
