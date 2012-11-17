@@ -1,0 +1,9 @@
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyMorpion\MyMorpion\bin\Debug\MyMorpion.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyMorpion\MyMorpion\bin\Debug\MyMorpion.pdb
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyMorpion\MyMorpion\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyMorpion\MyMorpion\obj\x86\Debug\MyMorpion.Form1.resources
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyMorpion\MyMorpion\obj\x86\Debug\MyMorpion.Properties.Resources.resources
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyMorpion\MyMorpion\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyMorpion\MyMorpion\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyMorpion\MyMorpion\obj\x86\Debug\MyMorpion.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP6\MyMorpion\MyMorpion\obj\x86\Debug\MyMorpion.pdb

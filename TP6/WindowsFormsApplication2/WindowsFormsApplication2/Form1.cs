@@ -10,7 +10,7 @@ using System.Windows.Forms;
 namespace MyTinyDemineur
 {
     public partial class Form1 : Form
-    {   
+    {
         public Form1()
         {
             InitializeComponent();
@@ -67,6 +67,31 @@ namespace MyTinyDemineur
             return x;
         }
 
+        private bool IsOne(Button b)
+        {
+            if (b == button1)
+            {
+                if (bomb == button2 || bomb == button3)
+                    return true;
+            }
+            if (b == button2)
+            {
+                if (bomb == button1 || bomb == button4)
+                    return true;
+            }
+            if (b == button3)
+            {
+                if (bomb == button1 || bomb == button4)
+                    return true;
+            }
+            if (b == button4)
+            {
+                if (bomb == button3 || bomb == button2)
+                    return true;
+            }
+            return false;
+        }
+
         private void play(Button button)
         {
             if (button.Text == "0")
@@ -86,7 +111,7 @@ namespace MyTinyDemineur
 
                 else
                 {
-                    button.Text = "0";
+                    button.Text = IsOne(button) ? "1" : "0";
                     button.BackColor = Color.Green;
                     button.ForeColor = Color.White;
 
