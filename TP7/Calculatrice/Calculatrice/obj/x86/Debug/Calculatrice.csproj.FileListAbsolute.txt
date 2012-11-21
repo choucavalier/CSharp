@@ -1,0 +1,9 @@
+C:\Users\vi\Documents\GitHub\CSharp\TP7\Calculatrice\Calculatrice\bin\Debug\Calculatrice.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP7\Calculatrice\Calculatrice\bin\Debug\Calculatrice.pdb
+C:\Users\vi\Documents\GitHub\CSharp\TP7\Calculatrice\Calculatrice\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\vi\Documents\GitHub\CSharp\TP7\Calculatrice\Calculatrice\obj\x86\Debug\Calculatrice.Form1.resources
+C:\Users\vi\Documents\GitHub\CSharp\TP7\Calculatrice\Calculatrice\obj\x86\Debug\Calculatrice.Properties.Resources.resources
+C:\Users\vi\Documents\GitHub\CSharp\TP7\Calculatrice\Calculatrice\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\vi\Documents\GitHub\CSharp\TP7\Calculatrice\Calculatrice\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\vi\Documents\GitHub\CSharp\TP7\Calculatrice\Calculatrice\obj\x86\Debug\Calculatrice.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP7\Calculatrice\Calculatrice\obj\x86\Debug\Calculatrice.pdb
