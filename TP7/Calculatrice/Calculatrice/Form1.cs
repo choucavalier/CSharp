@@ -22,7 +22,10 @@ namespace Calculatrice
         // Le sujet nous oblige a faire de la recursion, alors oblige de faire ca... C'est beaucoup plus joli avec une boucle.
         static float my_sqrt(float a)
         {
-            return my_sqrt(a, a / 2);
+            if (a >= 0)
+                return my_sqrt(a, a / 2);
+            else
+                throw new Exception("Racine d'un nombre negatif");
         }
 
         // On passe en surcharge
@@ -57,7 +60,7 @@ namespace Calculatrice
         static bool is_sexy(int a, int b)
         {
             if (a > 1000 || b > 1000 || !is_prim(a) || !is_prim(b)) return false; // Je gere d'abord tous les cas cons
-            return (a - b == 6 || b - a == 6) ? true : false; // Je teste si la difference des deux fait 6
+            return (a - b == 6 || b - a == 6); // Je teste si la difference des deux fait 6
         }
 
         static int facto(int a)
@@ -163,8 +166,6 @@ namespace Calculatrice
             label1.Location = new Point(13,43);
             labelOp.Location = new Point(label1.Location.X + label1.Size.Width, 43);
             label2.Location = new Point(labelOp.Location.X + labelOp.Size.Width, 43);
-
-            MessageBox.Show(my_cos(deg_to_rad(360)).ToString());
         }
 
         // Voici les procedures du tp, dont je ne vais pas me servir puisque je code ma calculatrice pour qu'elle soit un minimum plus intuitive que ca...
@@ -240,22 +241,32 @@ namespace Calculatrice
 
 
         // Cette fonction est declenchee lorsque l'utilisateur clique sur un bouton d'operation binaire
-        // Dans ma calculette, le clique sur les boutons des operations binaires ne produit aucun changement de ma variable globale resultat
+        // Dans ma calculette, le clique sur les boutons des operations binaires ne produit aucun changement de ma variable globale resultat sauf dans le cas ou on veut effectuer plusieurs operations a la suite directement sans passer par le bouton egal.
         private void goAhead(Button b)
         {
-            if (calcBox.Text == "")
+            if (label1.Text != "" && label2.Text == "")
             {
-                label1.Text = r.ToString(); // le champ utilisateur est vide, donc je remplace le premier nombre de mes labels par r, car l'utilisateur veut effectuer une operation sur le r actuel.
+                label1.Text = eval(float.Parse(label1.Text), labelOp.Text, float.Parse(calcBox.Text)).ToString();
             }
 
             else
             {
-                label1.Text = calcBox.Text; // sinon c'est qu'il veut effectuer une operation sur le nombre qu'il vient d'entrer
+                if (calcBox.Text == "")
+                {
+                    label1.Text = r.ToString();
+                    // le champ utilisateur est vide, donc je remplace le premier nombre de mes labels par r, car l'utilisateur veut effectuer une operation sur le r actuel.
+                }
+
+                else
+                {
+                    label1.Text = calcBox.Text;
+                    // sinon c'est qu'il veut effectuer une operation sur le nombre qu'il vient d'entrer
+                }
             }
-            
-            // Ici, dans tous les cas, on effectue l'operation associee au bouton b, on affiche ca dans le label, et on vide le label 2 car l'operation n'a pas encore ete effectuee
+
             labelOp.Text = b.Text;
             label2.Text = "";
+
             rePose();
             refresh();
         }
@@ -380,12 +391,21 @@ namespace Calculatrice
                     return a * b;
                 case "÷":
                 case "/":
-                    return b != 0 ? a / b : 0;
+                    if (b == 0)
+                        throw new Exception("Division par zero");
+                    else
+                        return a / b;
                 case "%":
                 case "mod":
-                    return b != 0 ? a % b : 0;
+                    if (b == 0)
+                        throw new Exception("Division par zero");
+                    else
+                        return a % b;
                 case "^":
-                    return my_pow(a, (int)b);
+                    if (a == 0 && b == 0)
+                        throw new Exception("0^0 ne se calcule pas");
+                    else
+                        return my_pow(a, (int)b);
                 default:
                     return 0;
             }
@@ -395,7 +415,24 @@ namespace Calculatrice
 
         private void equalButton_Click(object sender, EventArgs e)
         {
-            if (label1.Text == "")
+            float f;
+            if (!float.TryParse(calcBox.Text, out f))
+            {
+                if (calcBox.Text == "")
+                {
+                    r = 0; label1.Text = "";
+                    label2.Text = "";
+                    labelOp.Text = "";
+                    refresh();
+                    rePose();
+                    return;
+                }
+
+                else
+                    throw new Exception("Entrez un nombre.");
+            };
+
+            if (label1.Text == "" || (label1.Text != "" && label2.Text != "" && labelOp.Text != "" && calcBox.Text != ""))
             {
                 r = float.Parse(calcBox.Text);
                 label1.Text = calcBox.Text;
@@ -404,7 +441,7 @@ namespace Calculatrice
             }
             else
             {
-                if (label1.Text != "" && label2.Text != "" && labelOp.Text != "")
+                if (label1.Text != "" && label2.Text != "" && labelOp.Text != "" && calcBox.Text == "")
                 {
                     label1.Text = r.ToString();
                     r = eval(r, labelOp.Text, float.Parse(label2.Text));
@@ -418,6 +455,47 @@ namespace Calculatrice
             }
             rePose();
             refresh();
+        }
+
+        private void calcBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == '+')
+                addButton_Click(null, null);
+
+            if (e.KeyChar == '-' || e.KeyChar == '−')
+                subButton_Click(null, null);
+
+            if (e.KeyChar == '/' || e.KeyChar == '÷')
+                divButton_Click(null, null);
+
+            if (e.KeyChar == '*' || e.KeyChar == '×')
+                mulButton_Click(null, null);
+
+            if (e.KeyChar == '%')
+                modButton_Click(null, null);
+
+            if (e.KeyChar == '^')
+                powButton_Click(null, null);
+
+            if (e.KeyChar == (char)13)
+                equalButton_Click(null, null);
+        }
+
+        private bool testOp(char c)
+        {
+            List<char> ops = new List<char> { '+', '-', '−', '/', '÷', '*', '×', '%', '^' };
+            if (ops.Contains(c))
+                return true;
+            else
+                return false;
+        }
+
+        private void calcBox_TextChanged(object sender, EventArgs e)
+        {
+            if (calcBox.Text.Length == 0)
+                return;
+            if (testOp(calcBox.Text[calcBox.Text.Length - 1]))
+                calcBox.Text = "";
         }
     }
 }

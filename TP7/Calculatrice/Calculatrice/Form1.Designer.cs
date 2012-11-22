@@ -48,6 +48,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.radianButton = new System.Windows.Forms.RadioButton();
             this.degreeButton = new System.Windows.Forms.RadioButton();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // calcBox
@@ -57,9 +59,11 @@
             this.calcBox.Location = new System.Drawing.Point(13, 13);
             this.calcBox.Multiline = false;
             this.calcBox.Name = "calcBox";
-            this.calcBox.Size = new System.Drawing.Size(149, 30);
+            this.calcBox.Size = new System.Drawing.Size(149, 49);
             this.calcBox.TabIndex = 0;
             this.calcBox.Text = "";
+            this.calcBox.TextChanged += new System.EventHandler(this.calcBox_TextChanged);
+            this.calcBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.calcBox_KeyPress);
             // 
             // addButton
             // 
@@ -231,7 +235,7 @@
             this.equalButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.equalButton.Location = new System.Drawing.Point(168, 12);
             this.equalButton.Name = "equalButton";
-            this.equalButton.Size = new System.Drawing.Size(55, 31);
+            this.equalButton.Size = new System.Drawing.Size(55, 50);
             this.equalButton.TabIndex = 13;
             this.equalButton.Text = "=";
             this.equalButton.UseVisualStyleBackColor = false;
@@ -240,7 +244,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.LightGray;
+            this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(13, 43);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
@@ -264,7 +268,7 @@
             // labelOp
             // 
             this.labelOp.AutoSize = true;
-            this.labelOp.BackColor = System.Drawing.Color.LightGray;
+            this.labelOp.BackColor = System.Drawing.Color.White;
             this.labelOp.Location = new System.Drawing.Point(19, 43);
             this.labelOp.Margin = new System.Windows.Forms.Padding(0);
             this.labelOp.Name = "labelOp";
@@ -275,7 +279,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.LightGray;
+            this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(25, 43);
             this.label2.Margin = new System.Windows.Forms.Padding(0);
             this.label2.Name = "label2";
@@ -325,13 +329,36 @@
             this.degreeButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.degreeButton.UseVisualStyleBackColor = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(234, 12);
+            this.label4.Name = "label4";
+            this.label4.Padding = new System.Windows.Forms.Padding(7);
+            this.label4.Size = new System.Drawing.Size(116, 29);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "Infos pratiques";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(234, 49);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(218, 86);
+            this.textBox1.TabIndex = 21;
+            this.textBox1.Text = resources.GetString("textBox1.Text");
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(237, 238);
+            this.ClientSize = new System.Drawing.Size(465, 238);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.degreeButton);
             this.Controls.Add(this.radianButton);
             this.Controls.Add(this.label3);
@@ -381,6 +408,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.RadioButton radianButton;
         private System.Windows.Forms.RadioButton degreeButton;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
