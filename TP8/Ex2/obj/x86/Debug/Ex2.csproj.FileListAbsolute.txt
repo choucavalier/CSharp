@@ -1,0 +1,5 @@
+C:\Users\vi\Documents\GitHub\CSharp\TP8\Ex2\bin\Debug\Ex2.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP8\Ex2\bin\Debug\Ex2.pdb
+C:\Users\vi\Documents\GitHub\CSharp\TP8\Ex2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\vi\Documents\GitHub\CSharp\TP8\Ex2\obj\x86\Debug\Ex2.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP8\Ex2\obj\x86\Debug\Ex2.pdb
