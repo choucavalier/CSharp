@@ -1,0 +1,5 @@
+C:\Users\vi\Documents\GitHub\CSharp\TP9\TP9\TP9\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\vi\Documents\GitHub\CSharp\TP9\TP9\TP9\bin\Debug\TP9.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP9\TP9\TP9\bin\Debug\TP9.pdb
+C:\Users\vi\Documents\GitHub\CSharp\TP9\TP9\TP9\obj\x86\Debug\TP9.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP9\TP9\TP9\obj\x86\Debug\TP9.pdb
