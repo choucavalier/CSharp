@@ -27,7 +27,7 @@ namespace MEB
 
         public static string TimeAfterTime(ref int days, ref int hours, ref int mins, ref int sec)
         {
-            if (sec > 42661337)
+            if (sec + mins * 60 + hours * 3600 + days * 3600 * 24 > 42661337)
                 return "ERROR : invalid amount";
             if (sec >= 60)
             {
@@ -82,11 +82,6 @@ namespace MEB
 			}
 
             return count;
-        }
-
-        static void Main(string[] args)
-        {
-            
         }
     }
 }
