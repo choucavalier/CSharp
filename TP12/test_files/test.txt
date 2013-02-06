@@ -1,0 +1,4 @@
+Ceci est un test.
+Ma methode ReadLine peut
+lire
+plusieurs lignes !

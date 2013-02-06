@@ -1,5 +1,0 @@
-C:\Users\vi\Documents\GitHub\CSharp\TP9\NPI\NPI\bin\Debug\NPI.exe
-C:\Users\vi\Documents\GitHub\CSharp\TP9\NPI\NPI\bin\Debug\NPI.pdb
-C:\Users\vi\Documents\GitHub\CSharp\TP9\NPI\NPI\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\vi\Documents\GitHub\CSharp\TP9\NPI\NPI\obj\x86\Debug\NPI.exe
-C:\Users\vi\Documents\GitHub\CSharp\TP9\NPI\NPI\obj\x86\Debug\NPI.pdb

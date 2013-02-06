@@ -1,0 +1,17 @@
+Content\Themes\PinkTheme\BoatBurning.xnb
+Content\Themes\PinkTheme\BoatHidden.xnb
+Content\Themes\PinkTheme\Water.xnb
+Content\Themes\PinkTheme\Grid.xnb
+Content\Themes\PinkTheme\Logo.xnb
+Content\Themes\PinkTheme\BoatDestroyed.xnb
+Content\Themes\PinkTheme\WaterHidden.xnb
+Content\Themes\PinkTheme\Aim.xnb
+Content\Themes\PinkTheme\GeneralFont.xnb
+Content\Themes\PinkTheme\TextBoxTexture.xnb
+Content\Themes\PinkTheme\TextBoxTextureFocus.xnb
+Content\Themes\PinkTheme\TextBoxCursorTexture.xnb
+Content\Themes\PinkTheme\ButtonFont.xnb
+Content\Themes\PinkTheme\TextBoxFont.xnb
+Content\Themes\PinkTheme\ButtonTexture.xnb
+Content\Themes\PinkTheme\ButtonTextureFocus.xnb
+Content\Themes\PinkTheme\GameOverTexture.xnb

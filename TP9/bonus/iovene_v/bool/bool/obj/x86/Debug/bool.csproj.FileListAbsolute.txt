@@ -1,0 +1,5 @@
+C:\Users\vi\Documents\GitHub\CSharp\TP9\bonus\iovene_v\bool\bool\bin\Debug\@bool.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP9\bonus\iovene_v\bool\bool\bin\Debug\@bool.pdb
+C:\Users\vi\Documents\GitHub\CSharp\TP9\bonus\iovene_v\bool\bool\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\vi\Documents\GitHub\CSharp\TP9\bonus\iovene_v\bool\bool\obj\x86\Debug\@bool.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP9\bonus\iovene_v\bool\bool\obj\x86\Debug\@bool.pdb

@@ -1,0 +1,5 @@
+C:\Users\vi\Documents\GitHub\CSharp\TP11\ToucheCoule\ToucheCoule\bin\Debug\ToucheCoule.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP11\ToucheCoule\ToucheCoule\bin\Debug\ToucheCoule.pdb
+C:\Users\vi\Documents\GitHub\CSharp\TP11\ToucheCoule\ToucheCoule\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\vi\Documents\GitHub\CSharp\TP11\ToucheCoule\ToucheCoule\obj\x86\Debug\ToucheCoule.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP11\ToucheCoule\ToucheCoule\obj\x86\Debug\ToucheCoule.pdb

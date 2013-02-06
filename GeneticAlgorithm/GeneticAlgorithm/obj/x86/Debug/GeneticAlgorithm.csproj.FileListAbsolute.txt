@@ -1,0 +1,5 @@
+C:\Users\vi\Documents\GitHub\CSharp\GeneticAlgorithm\GeneticAlgorithm\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\vi\Documents\GitHub\CSharp\GeneticAlgorithm\GeneticAlgorithm\bin\Debug\GeneticAlgorithm.exe
+C:\Users\vi\Documents\GitHub\CSharp\GeneticAlgorithm\GeneticAlgorithm\bin\Debug\GeneticAlgorithm.pdb
+C:\Users\vi\Documents\GitHub\CSharp\GeneticAlgorithm\GeneticAlgorithm\obj\x86\Debug\GeneticAlgorithm.exe
+C:\Users\vi\Documents\GitHub\CSharp\GeneticAlgorithm\GeneticAlgorithm\obj\x86\Debug\GeneticAlgorithm.pdb

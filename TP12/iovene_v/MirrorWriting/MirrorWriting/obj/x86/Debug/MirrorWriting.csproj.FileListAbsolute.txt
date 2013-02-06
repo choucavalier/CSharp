@@ -1,0 +1,5 @@
+C:\Users\vi\Documents\GitHub\CSharp\TP12\iovene_v\MirrorWriting\MirrorWriting\bin\Debug\MirrorWriting.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP12\iovene_v\MirrorWriting\MirrorWriting\bin\Debug\MirrorWriting.pdb
+C:\Users\vi\Documents\GitHub\CSharp\TP12\iovene_v\MirrorWriting\MirrorWriting\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\vi\Documents\GitHub\CSharp\TP12\iovene_v\MirrorWriting\MirrorWriting\obj\x86\Debug\MirrorWriting.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP12\iovene_v\MirrorWriting\MirrorWriting\obj\x86\Debug\MirrorWriting.pdb

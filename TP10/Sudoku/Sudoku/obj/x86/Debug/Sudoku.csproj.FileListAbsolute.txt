@@ -1,5 +1,0 @@
-C:\Users\vi\Documents\GitHub\CSharp\TP10\Sudoku\Sudoku\bin\Debug\Sudoku.exe
-C:\Users\vi\Documents\GitHub\CSharp\TP10\Sudoku\Sudoku\bin\Debug\Sudoku.pdb
-C:\Users\vi\Documents\GitHub\CSharp\TP10\Sudoku\Sudoku\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\vi\Documents\GitHub\CSharp\TP10\Sudoku\Sudoku\obj\x86\Debug\Sudoku.exe
-C:\Users\vi\Documents\GitHub\CSharp\TP10\Sudoku\Sudoku\obj\x86\Debug\Sudoku.pdb
