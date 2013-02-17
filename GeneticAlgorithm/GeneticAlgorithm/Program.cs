@@ -29,6 +29,7 @@ namespace GeneticAlgorithm
                 foreach (Genome g in fellows.members)
                 {
                     g.Draw(plate);
+                    Console.Read();
                     float f = g.GetFitness(plate, pic);
                     fitnesses.Add(f);
                     g.fitness = f;

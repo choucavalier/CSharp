@@ -73,9 +73,7 @@ namespace WavReader
                 wh = WavHeader.WavHeaderFromBinaryReader(br);
 
             foreach (var f in Assembly.GetExecutingAssembly().GetType(typeof(WavHeader).ToString()).GetFields())
-            {
                 Console.WriteLine(f.Name + " : " + f.GetValue(wh));
-            }
         }
     }
 }
