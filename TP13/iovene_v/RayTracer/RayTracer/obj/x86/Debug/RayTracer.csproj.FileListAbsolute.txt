@@ -1,0 +1,9 @@
+C:\Users\vi\Documents\GitHub\CSharp\TP13\iovene_v\RayTracer\RayTracer\bin\Debug\RayTracer.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP13\iovene_v\RayTracer\RayTracer\bin\Debug\RayTracer.pdb
+C:\Users\vi\Documents\GitHub\CSharp\TP13\iovene_v\RayTracer\RayTracer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\vi\Documents\GitHub\CSharp\TP13\iovene_v\RayTracer\RayTracer\obj\x86\Debug\RayTracer.RayTracing.resources
+C:\Users\vi\Documents\GitHub\CSharp\TP13\iovene_v\RayTracer\RayTracer\obj\x86\Debug\RayTracer.Properties.Resources.resources
+C:\Users\vi\Documents\GitHub\CSharp\TP13\iovene_v\RayTracer\RayTracer\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\vi\Documents\GitHub\CSharp\TP13\iovene_v\RayTracer\RayTracer\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\vi\Documents\GitHub\CSharp\TP13\iovene_v\RayTracer\RayTracer\obj\x86\Debug\RayTracer.exe
+C:\Users\vi\Documents\GitHub\CSharp\TP13\iovene_v\RayTracer\RayTracer\obj\x86\Debug\RayTracer.pdb

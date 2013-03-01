@@ -101,7 +101,8 @@ namespace RayTracer
 
         public static double ReflectedRayAngleCos(Ray ray, Vector3D intersectionNormale)
         {
-            return Vector3D.Scalar(ray.Direction, intersectionNormale)/(ray.Direction.Norm()*intersectionNormale.Norm());
+            double cos = Vector3D.Scalar(ray.Direction, intersectionNormale)/(ray.Direction.Norm()*intersectionNormale.Norm());
+            return Math.Pow(-Math.Log(cos + 1), 2);
         }
     }
 }
