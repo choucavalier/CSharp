@@ -1,0 +1,4 @@
+C:\Users\Valentin\Documents\git\CSharp\TP14\Crackme\Crackme\bin\Debug\Crackme.exe
+C:\Users\Valentin\Documents\git\CSharp\TP14\Crackme\Crackme\bin\Debug\Crackme.pdb
+C:\Users\Valentin\Documents\git\CSharp\TP14\Crackme\Crackme\obj\x86\Debug\Crackme.exe
+C:\Users\Valentin\Documents\git\CSharp\TP14\Crackme\Crackme\obj\x86\Debug\Crackme.pdb

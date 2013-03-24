@@ -3,3 +3,8 @@ C:\Users\vi\Documents\GitHub\CSharp\TP14\MyNetcat\MyNetcat\bin\Debug\MyNetcat.pd
 C:\Users\vi\Documents\GitHub\CSharp\TP14\MyNetcat\MyNetcat\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\vi\Documents\GitHub\CSharp\TP14\MyNetcat\MyNetcat\obj\x86\Debug\MyNetcat.exe
 C:\Users\vi\Documents\GitHub\CSharp\TP14\MyNetcat\MyNetcat\obj\x86\Debug\MyNetcat.pdb
+C:\Users\Valentin\Documents\git\CSharp\TP14\MyNetcat\MyNetcat\obj\x86\Debug\MyNetcat.exe
+C:\Users\Valentin\Documents\git\CSharp\TP14\MyNetcat\MyNetcat\obj\x86\Debug\MyNetcat.pdb
+C:\Users\Valentin\Documents\git\CSharp\TP14\MyNetcat\MyNetcat\bin\Debug\MyNetcat.exe
+C:\Users\Valentin\Documents\git\CSharp\TP14\MyNetcat\MyNetcat\obj\x86\Debug\MyNetcat.csprojResolveAssemblyReference.cache
+C:\Users\Valentin\Documents\git\CSharp\TP14\MyNetcat\MyNetcat\bin\Debug\MyNetcat.pdb

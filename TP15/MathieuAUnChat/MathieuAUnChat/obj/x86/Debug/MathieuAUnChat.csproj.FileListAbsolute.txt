@@ -1,0 +1,5 @@
+C:\Users\Valentin\Documents\git\CSharp\TP15\MathieuAUnChat\MathieuAUnChat\bin\Debug\MathieuAUnChat.exe
+C:\Users\Valentin\Documents\git\CSharp\TP15\MathieuAUnChat\MathieuAUnChat\bin\Debug\MathieuAUnChat.pdb
+C:\Users\Valentin\Documents\git\CSharp\TP15\MathieuAUnChat\MathieuAUnChat\obj\x86\Debug\MathieuAUnChat.exe
+C:\Users\Valentin\Documents\git\CSharp\TP15\MathieuAUnChat\MathieuAUnChat\obj\x86\Debug\MathieuAUnChat.pdb
+C:\Users\Valentin\Documents\git\CSharp\TP15\MathieuAUnChat\MathieuAUnChat\obj\x86\Debug\MathieuAUnChat.csprojResolveAssemblyReference.cache

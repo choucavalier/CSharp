@@ -77,7 +77,7 @@ namespace MyNetcat
                             int i;
                             while ((i = stream.Read(bytes, 0, bytes.Length)) != 0)
                             {
-                                Console.WriteLine(Encoding.ASCII.GetString(bytes, 0, i));
+                                Console.WriteLine("  > " + Encoding.ASCII.GetString(bytes, 0, i));
                                 stream.WriteByte(1);
                             }
                         }
