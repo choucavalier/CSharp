@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Net;
 using System.Threading.Tasks;
 using System.Diagnostics;
 
@@ -9,6 +11,61 @@ namespace TPCSharp4
 {
 	class Sudoku
 	{
+        public static void Main(string[] args)
+        {
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://www.newbiecontest.org/epreuves/prog/progsudoku.php");
+
+            request.CookieContainer = new CookieContainer();
+            request.CookieContainer.Add(new Cookie("SMFCookie89", "a%3A4%3A%7Bi%3A0%3Bs%3A5%3A%2263879%22%3Bi%3A1%3Bs%3A40%3A%22e6c4e0d61f5dadc7653b214f594eb66188628b64%22%3Bi%3A2%3Bi%3A1553258272%3Bi%3A3%3Bi%3A0%3B%7D", "/", "www.newbiecontest.org"));
+
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+
+            Stream s = response.GetResponseStream();
+            StreamReader sr = new StreamReader(s);
+            string str = sr.ReadToEnd();
+
+            string[] nbrs = str.Split(new[] { "<td class=\"chiffe\">", "<td class=\"chiffe1\">" }, StringSplitOptions.None);
+
+            string str1 = "";
+
+            for (int i = 1; i < nbrs.Length; i++)
+                str1 += nbrs[i][0];
+
+            str = "";
+
+            for (int i = 0; i <= 60; i += 27)
+                for (int j = i; j <= i + 6; j += 3)
+                    for (int k = j; k <= j + 18; k += 9)
+                        str = str + str1[k] + str1[k + 1] + str1[k + 2];
+
+            int[,] sudo = new int[9,9];
+
+            for (int i = 0; i < 9; i++)
+                for (int j = 0; j < 9; j++)
+                    sudo[j, i] = int.Parse(str[9*j+i].ToString());
+            Solve(ref sudo);
+
+            str = "";
+
+            for (int i = 0; i < 9; i++)
+            {
+                for (int j = 0; j < 9; j++)
+                    str = str + sudo[i, j].ToString();
+                if (i != 8)
+                    str = str + "-";
+            }
+            
+            PrintTab(sudo);
+            Console.WriteLine(str);
+            
+            Process p = new Process();
+            p.StartInfo.FileName = "http://www.newbiecontest.org/epreuves/prog/verifprsudoku.php?solution=" + str;
+            p.Start();
+
+
+            Console.ReadLine();
+        }
+
 		static Random rnd = new Random ();
 
         public static void InitTab(int[,] tab)
@@ -96,66 +153,7 @@ namespace TPCSharp4
                 }
             }
         }
-        /*
-        #region BONUS-REAL-RANDOM
 
-        static void Swap(ref int a, ref int b)
-        {
-            int c = a;
-            a = b;
-            b = c;
-        }
-
-        static void SwapGridNumbers(ref int[,] tab)
-        {
-            int a = rnd.Next(1, 10), b = a;
-
-            while (b == a)
-            {
-                b = rnd.Next(1, 10);
-            }
-
-            for (int i = 0; i < 9; i++)
-            {
-                for (int j = 0; j < 9; j++)
-                {
-                    if (tab[i, j] == a)
-                        tab[i, j] = b;
-                    else if (tab[i, j] == b)
-                        tab[i, j] = a;
-                }
-            }
-        }
-
-        static void MixGridLines(ref int[,] tab)
-        {
-            for (int i = 0; i <= 6; i += 3)
-            {
-                int rn1 = rnd.Next(i, i + 3), rn2 = rn1;
-
-                while (rn2 == rn1)
-                {
-                    rn2 = rnd.Next(i, i + 3);
-                }
-
-                for (int x = 0; x < 9; x++)
-                {
-                    Swap(ref tab[x, rn1], ref tab[x, rn2]);
-                }
-            }
-        }
-
-        static void RandomlyFillTab2(ref int[,] tab)
-        {
-            for (int i = 0; i < 2000; i++)
-            {
-                SwapGridNumbers(ref tab);
-                MixGridLines(ref tab);
-            }
-        }
-
-        #endregion 
-        */
         static void GetLinePossibleNumbers(ref List<int> numList, int x, int[,] tab)
         {
             for (int i = 0; i < 9; i++)
@@ -220,13 +218,9 @@ namespace TPCSharp4
         static bool IsFinished(int[,] tab)
         {
             for (int i = 0; i < 9; i++)
-            {
                 for (int j = 0; j < 9; j++)
-                {
                     if (tab[i, j] == 0)
                         return false;
-                }
-            }
             return true;
         }
 

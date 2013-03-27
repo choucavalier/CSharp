@@ -1,0 +1,6 @@
+C:\Users\Valentin\Documents\git\CSharp\TP16\Astar\Astar\Astar\bin\x86\Debug\Astar.exe
+C:\Users\Valentin\Documents\git\CSharp\TP16\Astar\Astar\Astar\bin\x86\Debug\Astar.pdb
+C:\Users\Valentin\Documents\git\CSharp\TP16\Astar\Astar\Astar\obj\x86\Debug\Astar.csprojResolveAssemblyReference.cache
+C:\Users\Valentin\Documents\git\CSharp\TP16\Astar\Astar\Astar\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Valentin\Documents\git\CSharp\TP16\Astar\Astar\Astar\obj\x86\Debug\Astar.exe
+C:\Users\Valentin\Documents\git\CSharp\TP16\Astar\Astar\Astar\obj\x86\Debug\Astar.pdb

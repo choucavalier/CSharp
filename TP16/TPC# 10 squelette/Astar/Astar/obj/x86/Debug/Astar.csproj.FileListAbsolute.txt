@@ -1,0 +1,12 @@
+C:\Users\Valentin\Documents\git\CSharp\TP16\TPC# 10 squelette\Astar\Astar\bin\x86\Debug\Content\mur.xnb
+C:\Users\Valentin\Documents\git\CSharp\TP16\TPC# 10 squelette\Astar\Astar\bin\x86\Debug\Content\hero.xnb
+C:\Users\Valentin\Documents\git\CSharp\TP16\TPC# 10 squelette\Astar\Astar\bin\x86\Debug\Content\arbre.xnb
+C:\Users\Valentin\Documents\git\CSharp\TP16\TPC# 10 squelette\Astar\Astar\bin\x86\Debug\Content\herbe.xnb
+C:\Users\Valentin\Documents\git\CSharp\TP16\TPC# 10 squelette\Astar\Astar\bin\x86\Debug\Content\eau.xnb
+C:\Users\Valentin\Documents\git\CSharp\TP16\TPC# 10 squelette\Astar\Astar\bin\x86\Debug\Content\Courier New.xnb
+C:\Users\Valentin\Documents\git\CSharp\TP16\TPC# 10 squelette\Astar\Astar\bin\x86\Debug\Astar.exe
+C:\Users\Valentin\Documents\git\CSharp\TP16\TPC# 10 squelette\Astar\Astar\bin\x86\Debug\Astar.pdb
+C:\Users\Valentin\Documents\git\CSharp\TP16\TPC# 10 squelette\Astar\Astar\obj\x86\Debug\Astar.csprojResolveAssemblyReference.cache
+C:\Users\Valentin\Documents\git\CSharp\TP16\TPC# 10 squelette\Astar\Astar\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Valentin\Documents\git\CSharp\TP16\TPC# 10 squelette\Astar\Astar\obj\x86\Debug\Astar.exe
+C:\Users\Valentin\Documents\git\CSharp\TP16\TPC# 10 squelette\Astar\Astar\obj\x86\Debug\Astar.pdb

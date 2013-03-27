@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astar", "Astar\Astar\Astar.csproj", "{9B3537D6-114F-4E9B-99DF-297C567EA094}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "AstarContent", "Astar\AstarContent\AstarContent.contentproj", "{946DD792-9012-4D0C-B5AD-28E530B7904C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B3537D6-114F-4E9B-99DF-297C567EA094}.Debug|x86.ActiveCfg = Debug|x86
+		{9B3537D6-114F-4E9B-99DF-297C567EA094}.Debug|x86.Build.0 = Debug|x86
+		{9B3537D6-114F-4E9B-99DF-297C567EA094}.Release|x86.ActiveCfg = Release|x86
+		{9B3537D6-114F-4E9B-99DF-297C567EA094}.Release|x86.Build.0 = Release|x86
+		{946DD792-9012-4D0C-B5AD-28E530B7904C}.Debug|x86.ActiveCfg = Debug|x86
+		{946DD792-9012-4D0C-B5AD-28E530B7904C}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

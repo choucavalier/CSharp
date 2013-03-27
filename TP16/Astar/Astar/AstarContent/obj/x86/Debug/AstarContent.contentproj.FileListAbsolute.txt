@@ -1,0 +1,1 @@
+C:\Users\Valentin\Documents\git\CSharp\TP16\Astar\Astar\AstarContent\obj\x86\Debug\AstarContent.contentprojResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+C:\Users\Valentin\Documents\git\CSharp\TP10\iovene_v\Sudoku\Sudoku\bin\Debug\Sudoku.exe
+C:\Users\Valentin\Documents\git\CSharp\TP10\iovene_v\Sudoku\Sudoku\bin\Debug\Sudoku.pdb
+C:\Users\Valentin\Documents\git\CSharp\TP10\iovene_v\Sudoku\Sudoku\obj\x86\Debug\Sudoku.exe
+C:\Users\Valentin\Documents\git\CSharp\TP10\iovene_v\Sudoku\Sudoku\obj\x86\Debug\Sudoku.pdb
