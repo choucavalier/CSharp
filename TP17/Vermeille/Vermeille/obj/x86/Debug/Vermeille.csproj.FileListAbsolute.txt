@@ -1,0 +1,4 @@
+C:\Users\Valentin\Documents\git\CSharp\TP17\Vermeille\Vermeille\bin\Debug\Vermeille.exe
+C:\Users\Valentin\Documents\git\CSharp\TP17\Vermeille\Vermeille\bin\Debug\Vermeille.pdb
+C:\Users\Valentin\Documents\git\CSharp\TP17\Vermeille\Vermeille\obj\x86\Debug\Vermeille.exe
+C:\Users\Valentin\Documents\git\CSharp\TP17\Vermeille\Vermeille\obj\x86\Debug\Vermeille.pdb

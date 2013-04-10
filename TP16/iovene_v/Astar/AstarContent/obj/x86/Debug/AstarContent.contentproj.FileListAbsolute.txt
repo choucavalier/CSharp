@@ -1,0 +1,4 @@
+C:\Users\Titou\Documents\Visual Studio 2010\Projects\Astar\Astar\AstarContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\TheneDiel\Documents\Visual Studio 2010\Projects\Astar\Astar\AstarContent\obj\x86\Debug\AstarContent.contentprojResolveAssemblyReference.cache
+E:\ACDC\TP10 C#\TPC# 10 squelette\Astar\AstarContent\obj\x86\Debug\AstarContent.contentprojResolveAssemblyReference.cache
+C:\Users\Valentin\Documents\git\CSharp\TP16\TPC# 10 squelette\Astar\AstarContent\obj\x86\Debug\AstarContent.contentprojResolveAssemblyReference.cache
