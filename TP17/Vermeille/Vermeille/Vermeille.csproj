@@ -49,7 +49,10 @@
     <Compile Include="Exo3.cs" />
     <Compile Include="Exo4.cs" />
     <Compile Include="Exo5.cs" />
+    <Compile Include="Exo6.cs" />
     <Compile Include="Exo7.cs" />
+    <Compile Include="Exo8.cs" />
+    <Compile Include="GenerateFile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

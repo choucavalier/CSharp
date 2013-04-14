@@ -1,0 +1,26 @@
+L'algorithme est assez complique a expliquer. 
+
+Ce qu'il faut savoir c'est que les TD de physiques et les cours d'electronique donnent enormement d'inspiration et stimulent la reflexion sur des sujets bien plus interessants.
+
+===
+Structure de donnee utilisee : Hashtable de Files
+
+En reflechissant en cours d'elec, je me suis rendu compte de l'existence d'une methode pour resoudre l'exercice qui ne me serait pas venue a l'esprit du premier coup d'oeil.
+En gros, il est inevitable de parcourir le fichier sequentiellement et de sauvegarder les indexs de tous les keywords que l'on rencontre sur notre passage.
+
+METHODE NAIVE
+Une methode naive serait de commencer une nouvelle liste a chaque fois que l'on rencontre un de ces mots.
+Des qu'une de ces listes contient tout les keywords, c'est une solution possible au probleme.
+On verifie si cette solution est mieux que la solution actuelle (si elle existe), si oui on remplace.
+Et on peut annuler toutes les autres listes commencees avant que celle-ci soit commencee, on sait qu'elles seront de toute facon moins biens.
+
+METHODE CHOISIE
+Des qu'on rencontre un keyword, on le met dans sa file correspondante (dans la hashtable, via une fonction de hashage sur la string).
+On verifie si toute les files ont au moins un element.
+	Si oui, il y a une solution
+		On defile le minimum des tetes de toutes les files, on repete cette operation jusqu'a ce qu'une file soit vide, on recupere le dernier element defile de cette file nouvellement vide, c'est l'index de depart de notre solution.
+		On recupere le maximum des tetes de toutes les files, c'est l'index de fin de notre solution.
+		On a une nouvelle solution, si elle est mieux on la garde (comme vu precedemment)
+	Si non
+		On continue de parcourir, on a pas encore de solution
+On retourne la valeur de notre solution. On a parcouru tout le fichier, c'est la meilleure qu'on ait pu trouver.

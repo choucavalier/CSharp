@@ -1,0 +1,3 @@
+J'ai choisi d'utiliser une hashtable pour avoir un temps de recherche tres convenable.
+Ma hashtable contient des listes recursives, structure egalement codee par mes soins.
+Ces listes sont bien evidemment triees, pour ameliorer la recherche.

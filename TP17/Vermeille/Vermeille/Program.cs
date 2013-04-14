@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Diagnostics;
 
@@ -10,18 +11,20 @@ namespace Vermeille
     {
         static void Main()
         {
-            Random r = new Random();
+            int b = 0;
+            int e = 0;
+            List<string> keywords = new List<string> {"a", "b", "c"};
+            foreach (string keyword in keywords)
+            {
+                Console.WriteLine(QueueHashtable.Hash(keyword));
+            }
             Stopwatch s = new Stopwatch();
             s.Start();
-            for (int i = 0; i < 5000; i++)
-            {
-                Data.Ht.Insert(r.Next(5000));
-            }
+            Exo8.FindSmallerSequence(keywords, "toogy", ref b, ref e);
             s.Stop();
-            Data.Ht.Insert(6969);
-            Console.WriteLine(Data.Ht.ToString());
-            Console.WriteLine(Data.Ht.Search(6969));
-            Console.WriteLine(s.ElapsedMilliseconds);
+
+            Console.WriteLine(b + " - " + e);
+            Console.WriteLine("Elapsed: " + s.ElapsedMilliseconds);
             Console.ReadLine();
         }
     }
